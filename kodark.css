@@ -38,3 +38,9 @@ h3 {
 strong {
     color: #ecc157;
 }
+ul {
+    list-style-type: "→  ";
+}
+ul ul {
+    list-style-type: circle;
+}
