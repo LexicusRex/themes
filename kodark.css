@@ -44,3 +44,9 @@ ul {
 ul ul {
     list-style-type: circle;
 }
+.box {
+    border: 1px solid #7f8ca6;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
