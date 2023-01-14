@@ -1,0 +1,40 @@
+/* @theme your-theme */
+
+@import 'default';
+
+
+h1, h2, h3, h4 {
+    color: #ecc157;
+}
+h1 {
+    font-size: 250%
+}
+h2 {
+    font-size: 200%
+}
+h3 {
+    font-size: 150%
+}
+.container {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: auto minmax(0, 4fr);
+    gap: 0 1em;
+}
+.alt-container {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: minmax(0, 6fr) minmax(0, 1fr) minmax(0, 6fr);
+    gap: 0 1em;
+    text-align: center;
+    align-items: center;
+}
+.container > div:nth-child(odd) {
+    text-align: right;
+}
+.comparison {
+    text-align: left
+}
+strong {
+    color: #ecc157;
+}
