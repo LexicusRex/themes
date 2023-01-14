@@ -19,7 +19,7 @@ h3 {
     margin-top: 0.5rem;
     display: grid;
     grid-template-columns: auto minmax(0, 4fr);
-    gap: 0 1em;
+    gap: 1em;
 }
 .alt-container {
     margin-top: 0.5rem;
