@@ -42,7 +42,8 @@ ul {
     list-style-type: "→  ";
 }
 ul ul {
-    list-style-type: circle;
+/*     list-style-type: circle; */
+    list-style-type: "⤷ ";
 }
 .box {
     border: 1px solid #7f8ca6;
