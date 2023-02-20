@@ -29,7 +29,7 @@ h3 {
     text-align: center;
     align-items: center;
 }
-.container > div:nth-child(odd) {
+.container > *:nth-child(odd) {
     text-align: right;
 }
 .comparison {
