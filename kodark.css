@@ -51,3 +51,14 @@ ul ul {
     border-radius: 8px;
     margin-bottom: 20px;
 }
+/*floating*/
+mark {
+    --floating-background: #000;
+    border-radius: 0;
+    padding-bottom: 5px;
+    background-image: linear-gradient(
+        360deg,
+        rgba(255, 255, 255, 0) 28%,
+        var(--floating-background) 28%
+    ) !important;
+}
