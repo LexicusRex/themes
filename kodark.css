@@ -32,6 +32,9 @@ h3 {
 .container > *:nth-child(odd) {
     text-align: right;
 }
+.container pre {
+      text-align: left;
+}
 .comparison {
     text-align: left
 }
