@@ -35,7 +35,7 @@ h3 {
     text-align: center;
     align-items: center;
 }
-.bal-container > *:nth-child(odd), .container > *:nth-child(odd) {
+.container > *:nth-child(odd) {
     text-align: right;
 }
 .bal-container pre, .container pre {
