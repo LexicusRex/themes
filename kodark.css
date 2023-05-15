@@ -21,7 +21,7 @@ h3 {
     grid-template-columns: auto minmax(0, 4fr);
     gap: 1em;
 }
-.bal-container {
+.code-col {
     margin-top: 0.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
