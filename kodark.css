@@ -21,6 +21,12 @@ h3 {
     grid-template-columns: auto minmax(0, 4fr);
     gap: 1em;
 }
+.bal-container {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
 .alt-container {
     margin-top: 0.5rem;
     display: grid;
@@ -29,10 +35,10 @@ h3 {
     text-align: center;
     align-items: center;
 }
-.container > *:nth-child(odd) {
+.bal-container > *:nth-child(odd), .container > *:nth-child(odd) {
     text-align: right;
 }
-.container pre {
+.bal-container pre, .container pre {
       text-align: left;
 }
 .comparison {
